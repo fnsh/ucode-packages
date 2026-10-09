@@ -6,7 +6,7 @@ include $(TOPDIR)/../package/gluon.mk
 
 define Package/fnsh-gluon-statistics
   TITLE:=gluon-web module for gluon-statistics
-  DEPENDS:=+gluon-ucode
+  DEPENDS:=+fnsh-gluon-ucode
 endef
 
 $(eval $(call BuildPackageGluon,fnsh-gluon-statistics))
